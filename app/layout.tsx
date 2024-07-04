@@ -32,7 +32,7 @@ export default function RootLayout({
         variables: { colorPrimary: "#624cf5" },
       }}
     >
-      <html lang="en">
+      <html lang="en" suppressHydrationWarning>
         <body className={cn("font-IBMPlex antialiased", IBMPlex.variable)}>
           {children}
         </body>
